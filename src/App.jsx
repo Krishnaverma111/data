@@ -4,7 +4,7 @@ import Skills from './Skills'
 import Project from './Project'
 import Experience from './components/Experience'
 import About from './components/About'
-// import Home from './components/home'
+import Home from './components/Home'
 // import Tech from './components/Tech'
  
 
@@ -15,7 +15,7 @@ export default function App() {
     <div className='bg-blue-400'>
       <Navbar/>
      
-      {/* <Home/>  */}
+      <Home/> 
       {/* <Tech/> */}
        <Skills/>
        <Project/>
