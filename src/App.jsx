@@ -7,7 +7,7 @@ import About from './components/About'
 // import Home from './components/home'
 import Tech from './components/Tech'
  
-
+//dsfiuhfiusdhfisduhfiu
 
 
 export default function App() {
