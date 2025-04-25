@@ -1,5 +1,5 @@
 import React from 'react';
-import uday from '../assets/img/uday2..jpg';
+import uday from '../assets/img/uday2.jpg';
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { TypeAnimation } from 'react-type-animation';
