@@ -5,7 +5,7 @@ import Project from './Project'
 import Experience from './components/Experience'
 import About from './components/About'
 import Home from './components/Home'
-// import Tech from './components/Tech'
+import Tech from './components/Tech'
  
 
 
@@ -16,7 +16,7 @@ export default function App() {
       <Navbar/>
      
       <Home/> 
-      {/* <Tech/> */}
+      <Tech/>
        <Skills/>
        <Project/>
        <Experience/>
