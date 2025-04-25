@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
-import { TypeAnimation } from 'react-type-animation';
+import { Typewriter } from 'react-simple-typewriter';
 
 export default function Home() {
     return (
@@ -9,23 +9,22 @@ export default function Home() {
             <div className="max-w-[1200px] mx-auto grid md:grid-cols-2 gap-12 items-center">
                 {/* Text Section */}
                 <div className="space-y-6">
-                    <TypeAnimation
-                        sequence={[
-                            'Web Designer', 1000,
-                            'Front-end Developer', 1000,
-                            'Fitness Influencer', 1000,
-                        ]}
-                        wrapper="span"
-                        speed={50}
-                        style={{ fontSize: '1.5rem', display: 'inline-block' }}
-                        repeat={Infinity}
-                        className="text-indigo-600 font-semibold"
-                    />
+                    <h2 className="text-indigo-600 text-2xl font-semibold">
+                        <Typewriter
+                            words={['Web Designer', 'Front-end Developer', 'Fitness Influencer']}
+                            loop={true}
+                            cursor
+                            cursorStyle="|"
+                            typeSpeed={70}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                        />
+                    </h2>
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-                        HEY, I AM <br /> UDAY SHARMA
+                        HEY, I am <br /> UDAY SHARMA
                     </h1>
                     <p className="text-lg sm:text-xl text-gray-600">
-                        I m a passionate Front-End Developer with a 6-month internship experience, turning designs into elegant web interfaces.
+                        I’m a passionate Front-End Developer with a 6-month internship experience, turning designs into elegant web interfaces.
                     </p>
 
                     {/* Actions */}
