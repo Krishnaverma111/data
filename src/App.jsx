@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Skills from './Skills'
-// import Project from './Project'
-// import Experience from './components/Experience'
+import Project from './Project'
+import Experience from './components/Experience'
 // import About from './components/About'
 // import Home from './components/home'
 // import Tech from './components/Tech'
@@ -18,8 +18,8 @@ export default function App() {
       {/* <Home/>  */}
       {/* <Tech/> */}
        <Skills/>
-       {/* <Project/> */}
-       {/* <Experience/> */}
+       <Project/>
+       <Experience/>
        {/* <About/>   */}
      
 
