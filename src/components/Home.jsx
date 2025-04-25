@@ -1,5 +1,4 @@
 import React from 'react';
-import uday from '../assets/img/uday2.jpg';
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { TypeAnimation } from 'react-type-animation';
@@ -26,7 +25,7 @@ export default function Home() {
                         HEY, I AM <br /> UDAY SHARMA
                     </h1>
                     <p className="text-lg sm:text-xl text-gray-600">
-                        I’m a passionate Front-End Developer with a 6-month internship experience, turning designs into elegant web interfaces.
+                        I m a passionate Front-End Developer with a 6-month internship experience, turning designs into elegant web interfaces.
                     </p>
 
                     {/* Actions */}
@@ -51,7 +50,7 @@ export default function Home() {
                 {/* Image Section */}
                 <div className="flex justify-center">
                     <img
-                        src={uday}
+                        src='https://res.cloudinary.com/df0sqyxrc/image/upload/v1745596013/uday_knacbs.jpg'
                         alt="Uday Sharma"
                         className="w-[250px] sm:w-[350px] md:w-[400px] h-auto object-cover rounded-2xl shadow-lg"
                     />
